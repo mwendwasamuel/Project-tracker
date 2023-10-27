@@ -1,11 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import AboutUs from "../components/AboutUs";
-import ContactUs from "../components/ContactUs";
+import React from "react";
+import ReactDOM from "react-dom";
+import AboutUs from "./components/AboutUs";
+import ContactUs from "./components/ContactUs";
 
-function App() {
-  return 
+export default function App() {
+  return (
+    <>
+      <h1>hello worlsd!!!</h1>
+      <AboutUs />
+      <ContactUs />
+    </>
+  );
 }
-ReactDOM.render(<App />, document.getElementById('root'));
-4
