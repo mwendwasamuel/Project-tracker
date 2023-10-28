@@ -6,7 +6,7 @@ import ContactUs from "./components/ContactUs";
 export default function App() {
   return (
     <>
-      <h1>hello worlsd!!!</h1>
+      <h1>PROJECT TRACKER SYSTEM</h1>
       <AboutUs />
       <ContactUs />
     </>
